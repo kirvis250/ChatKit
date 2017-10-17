@@ -4,7 +4,7 @@ apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         minSdkVersion 14
@@ -37,7 +37,7 @@ dependencies {
 
 def libraryGroupId = 'lt.farmis.libraries'
 def libraryArtifactId = 'chatkit'
-def libraryVersion = '0.2.4'
+def libraryVersion = '0.2.10'
 
 task androidSourcesJar(type: Jar) {
     classifier = 'sources'
