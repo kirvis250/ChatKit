@@ -616,14 +616,14 @@ public class MessageHolders {
             image = (ImageView) itemView.findViewById(R.id.image);
             imageOverlay = itemView.findViewById(R.id.imageOverlay);
 
-            if (image != null && image instanceof RoundedImageView) {
-                ((RoundedImageView) image).setCorners(
-                        R.dimen.message_bubble_corners_radius,
-                        R.dimen.message_bubble_corners_radius,
-                        R.dimen.message_bubble_corners_radius,
-                        0
-                );
-            }
+//            if (image != null && image instanceof RoundedImageView) {
+//                ((RoundedImageView) image).setCorners(
+//                        R.dimen.message_bubble_corners_radius,
+//                        R.dimen.message_bubble_corners_radius,
+//                        R.dimen.message_bubble_corners_radius,
+//                        0
+//                );
+//            }
         }
 
         @Override
@@ -667,14 +667,14 @@ public class MessageHolders {
             image = (ImageView) itemView.findViewById(R.id.image);
             imageOverlay = itemView.findViewById(R.id.imageOverlay);
 
-            if (image != null && image instanceof RoundedImageView) {
-                ((RoundedImageView) image).setCorners(
-                        R.dimen.message_bubble_corners_radius,
-                        R.dimen.message_bubble_corners_radius,
-                        0,
-                        R.dimen.message_bubble_corners_radius
-                );
-            }
+//            if (image != null && image instanceof RoundedImageView) {
+//                ((RoundedImageView) image).setCorners(
+//                        R.dimen.message_bubble_corners_radius,
+//                        R.dimen.message_bubble_corners_radius,
+//                        0,
+//                        R.dimen.message_bubble_corners_radius
+//                );
+//            }
         }
 
         @Override
