@@ -37,7 +37,7 @@ dependencies {
 
 def libraryGroupId = 'lt.farmis.libraries'
 def libraryArtifactId = 'chatkit'
-def libraryVersion = '0.2.10'
+def libraryVersion = '0.2.11'
 
 task androidSourcesJar(type: Jar) {
     classifier = 'sources'
